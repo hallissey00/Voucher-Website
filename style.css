@@ -1,0 +1,129 @@
+.holder{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+
+
+.holder2{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+input[type=text],input[type=password],input[type=submit]{
+	width:80%;
+	padding:15px;
+	font-size:20px;
+	border-radius:7px;
+	border:none;
+	outline:none;
+	margin:12px;
+}
+
+input[type=submit]{
+	background:pink;
+	color:black;
+	
+	
+}
+input[type=submit]:hover{
+	background:#EDC9Af;
+}
+a{
+	text-decoration:none;
+	color:blue;
+	font-size:20px;
+	
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.cover{
+	background: url(image.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.nav{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: grey;
+}
+
+.nav ul{
+	float: left;
+	margin-right: 19px;
+}
+.nav ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 90px;
+}
+.nav ul li a{
+	font-size: 25px;
+	color: white;
+	padding: 8px 15px;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.nav ul li a:hover{
+	background: pink;
+	border-radius: 2px;
+}
+.cover .center{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-55%, -50%);
+	user-select: none;
+}
+.center h1{
+	color: red;
+	text-align: center;
+}
+.center h2{
+	color: red;
+	font-size: 75px;
+	font-weight: bold;
+	margin-top: 14px;
+	width: 889px;
+	text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+
+
+
+
+

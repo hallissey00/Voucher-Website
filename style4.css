@@ -1,0 +1,209 @@
+
+
+
+.holder{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+
+
+.holder2{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+input[type=text],input[type=password],input[type=submit]{
+	width:80%;
+	padding:15px;
+	font-size:20px;
+	border-radius:7px;
+	border:none;
+	outline:none;
+	margin:12px;
+}
+
+input[type=submit]{
+	background:pink;
+	color:black;
+	
+	
+}
+input[type=submit]:hover{
+	background:#EDC9Af;
+}
+a{
+	text-decoration:none;
+	color:blue;
+	font-size:20px;
+	
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.cover{
+	background: url(images/background.jpg) no-repeat;
+	background-size: cover;
+	height: 150vh;
+}
+.nav{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: grey;
+}
+
+.nav ul{
+	float: left;
+	margin-right: 19px;
+}
+.nav ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 90px;
+}
+.nav ul li a{
+	font-size: 25px;
+	color: white;
+	padding: 8px 15px;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.nav ul li a:hover{
+	background: pink;
+	border-radius: 2px;
+}
+.cover .center{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-55%, -50%);
+	user-select: none;
+}
+.center h1{
+	color: red;
+	text-align: center;
+}
+.center h2{
+	color: red;
+	font-size: 75px;
+	font-weight: bold;
+	margin-top: 14px;
+	width: 889px;
+	text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+html {
+	font-size:10px
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+

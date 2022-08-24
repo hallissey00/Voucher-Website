@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Voucher Cart</title>
+	
+
+	
+	<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+
+
+
+
+
+
+<style>
+
+
+
+
+
+
+
+.holder{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+
+
+.holder2{
+	max-width:500px;
+	margin:auto;
+	background:grey;
+	padding:40px;
+	color:black;
+	text-align:center;
+	border-radius:20px;
+	margin-top:22px;
+}
+input[type=text],input[type=password],input[type=submit]{
+	width:80%;
+	padding:15px;
+	font-size:20px;
+	border-radius:7px;
+	border:none;
+	outline:none;
+	margin:12px;
+}
+
+input[type=submit]{
+	background:pink;
+	color:black;
+	
+	
+}
+input[type=submit]:hover{
+	background:#EDC9Af;
+}
+a{
+	text-decoration:none;
+	color:blue;
+	font-size:20px;
+	
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.cover{
+	background: url(images/background.jpg) no-repeat;
+	background-size: cover;
+	height: 150vh;
+}
+.nav{
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: grey;
+}
+
+.nav ul{
+	float: left;
+	margin-right: 19px;
+}
+.nav ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	line-height: 90px;
+}
+.nav ul li a{
+	font-size: 21px;
+	color: white;
+	padding: 8px 15px;
+	text-decoration: none;
+	transition: .2s;
+}
+
+.nav ul li a:hover{
+	background: pink;
+	border-radius: 2px;
+}
+.cover .center{
+	position: absolute;
+	left: 55%;
+	top: 55%;
+	transform: translate(-55%, -50%);
+	user-select: none;
+}
+.center h1{
+	color: red;
+	text-align: center;
+}
+.center h2{
+	color: red;
+	font-size: 75px;
+	font-weight: bold;
+	margin-top: 14px;
+	width: 889px;
+	text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+html {
+	font-size:10px
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+</style>
+
+
+
+	<div class="cover">
+			<nav class="nav">
+				
+				<ul>
+					<li><a class="active" href="index.html">Home</a></li>
+					<li><a href="products.html">Products</li>
+					<li><a href="addcart.html">AddCart</a></li>
+					<li><a href="payment.html">Payment</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.php">Contact</a></li>
+					<li><a href="login.php" class="right-link">Logout</a></li>
+				</ul>
+			</nav>
+
+			<body>
+  <div class="container">
+    <div class="heading">
+<br>
+<hr>
+    </div>
+    <div class="row">
+      <div class="card">
+        <div class="card-header">
+          <h1>Tesco Voucher</h1>
+		  <h2>10 euros for 40% off</h2>
+        </div>
+        <div class="card-body">
+          <p>
+              Tesco is a British/irish multinational groceries and general merchandise retailer. It is the third-largest
+			  retailer in the world measured by gross revenues and the ninth-largest in the world measured by revenues. 
+			  This voucher cost 10 euros meaning your next visit to tesco you will have 40% off your next purcase.
+
+
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Currys</h1>
+		  <h2>15 euros for any headphones under 60 euros</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            Currys (branded as Currys PC World) is a British electrical retailer operating in the United Kingdom and Republic of Ireland, owned by Dixons Carphone. 
+			It specialises in selling home electronics and household appliances.This voucher is good offer,
+			with any headphones under 60 euros for only 15 euros is a good deal, selling out quickly.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h1>Argos</h1>
+		  <h2>25 euros for 60% off</h2>
+        </div>
+        <div class="card-body">
+          <p>
+           Argos Limited, trading as Argos, is a catalogue retailer operating in the United Kingdom and Ireland, 
+		   It was established in November 1972. This offer is only 25 euros for 60% of your next purcase.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Betfair</h1>
+		  <h2>20 euros for 50 euro online casino</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            Betfair is an online gambling company which operates the world's largest online betting exchange. 
+			It also offers a Sportsbook, online casino, online poker and online bingo. 
+			This offer is only 20 euros meaning you can have 50 euros in your account, but this offer is only for online casino.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+	   <div class="row">
+      <div class="card">
+        <div class="card-header">
+          <h1>Life Style Sports</h1>
+		  <h2>10 euros for 30% off</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            Life Style Sports Limited is Ireland's largest sports retailer, operating 53 outlets spread across the Republic of Ireland and Northern Ireland.
+			They stock sporting goods and sport fashions. This voucher offers only cost 10 euros but with your next purcase get 30% off.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Marks & Spencers</h1>
+		  <h2>15 euros for 40% off</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            Marks and Spencer is a major British multinational retailer with headquarters in London, 
+			England, that specialises in selling clothing, home products and food products, mostly of its own label.
+			This deal off 40% off next purcase fdor only 15 euros.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h1>Just Eat</h1>
+		  <h2>15 euros for 40 euros off</h2>
+        </div>
+        <div class="card-body">
+          <p>
+           Just Eat is an online food order and delivery service. It acts as an intermediary between independent takeaway food outlets and customers.
+		   The platform enables customers to search for local takeaway restaurants, place orders and pay online, and to choose from pick-up or delivery options. 
+		   This voucher is selling out fast!!! ONLY 15 euros and you get 40 euros off with your next deliverys.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <h1>Cineworld</h1>
+		  <h2>10 euros for 2 cinema tickets</h2>
+        </div>
+        <div class="card-body">
+          <p>
+            Cineworld Dublin is the biggest cinema in Ireland, with 4 floors and 17 screens. It is located on Parnell Street, Dublin and is owned by the Cineworld cinema chain.
+			It was opened by Virgin Cinemas in 1995 as Virgin Cinemas Dublin, the only cinema that was opened by Virgin Cinemas in Ireland.
+			This voucher offers 2 cinema tickets can use it anytime for only 10 euros.
+          </p>
+          <a href="addcart.html" class="btn">CLICK HERE <br> TO HEAD TO ADDCART PAGE</a>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
