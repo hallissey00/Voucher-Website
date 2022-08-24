@@ -1,7 +1,7 @@
 # Voucher-Website
   This project will develop Voucher System for Local Businesses; due to this current covid-19 pandemic, many organizations  had to close down for a definite time due to the new covid-19 guidelines that have been put on by the government. This has put huge pressure on companies from an economic point of view.
 
-#Project Plan
+# Project Plan
 As we discussed in our project, Kmal Elhaj will be designing the home page, contact page Joshua 
 Olunana will do the checkout and payment page, Dylan Hallisey will do the gift cards, and the vouchers 
 page also add to the basket. The application will be called VoucherCart.com. The project we will use 
@@ -12,16 +12,16 @@ specific business, this can be for example restaurants or households assistance 
 gardens and cleaning. The main technologies we will be using for this project will be HTML, CSS, 
 PHP.
 
-#Motivation
+# Motivation
 Our motivation for doing this project is to help small and local businesses allow their customers to buy 
 vouchers for their shops online giving the fact they cannot go to the shops because of the government 
 implemented restrictions.
 
-#Goals
+# Goals
 The main goal is to help people buy vouchers from their local shop online, and be able to redeem the 
 vouchers when they need it.
 
-#System Analysis
+# System Analysis
 The aim of this chapter is exactly what is the application supposed to do? This should be done by 
 talking about the contract between the software developers and the clients. This chapter we will talk 
 about the functional requirements and data requirements.
